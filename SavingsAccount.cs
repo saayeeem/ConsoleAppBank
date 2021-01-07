@@ -21,10 +21,6 @@ namespace ConsoleAppBank
 
         }
 
-        internal override void ShowInfo()
-        {
-            base.ShowInfo();
-        }
         internal override void Deposit(double amount)
         {
             base.Deposit(amount);

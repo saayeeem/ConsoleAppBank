@@ -21,11 +21,7 @@ namespace ConsoleAppBank
             this.Id = (++serialNo).ToString();
         }
 
-        internal override void ShowInfo()
-        {
-
-            base.ShowInfo();
-        }
+    
 
         internal override void Deposit(double amount)
         {
